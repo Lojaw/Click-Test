@@ -1,0 +1,84 @@
+<html>
+
+<head>
+  
+  <div align="center"> <span title="Title"><h1 color> Click Test</h1></span></div>
+
+ 
+
+<link href="click.css">
+</head>  
+    
+<body>
+  <button id="clicksPerSecond" style = "visibility: hidden;">Clicks per second: </button>
+  <button id="clickAverage" style = "visibility: hidden;">CPS Durchschnitt: </button>
+  <button id="clickTimeRemaining" style = "visibility: hidden;">Click time left: </button>
+ 
+  <style>
+    body {
+      /* background-image: url("https://source.unsplash.com/random/1920x1080"); */
+        background-image: url('bground.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+    }  
+    </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .block {
+  display: block;
+  width: 90%;
+  border: none;
+  background-color:black;
+  color: white;
+  padding: 200px 60px;
+  font-size: 26px;
+  cursor: pointer;
+  text-align: center;
+  opacity: 0.5;
+  }
+  
+  
+  .block:hover {
+  background-color:#323232;
+  color: white;
+  }
+  </style>
+
+<p align=justify style="background-color:black;
+border-radius:10px;
+font-size:60px;
+padding:30px;
+margin:5px;
+color: white;
+text-align: center;
+opacity: 0.9">
+    
+<b>↓Set your time here↓</b><p/>
+
+    <p align=justify style="background-color:black;
+border-radius:10px;
+font-size:40px;
+padding:20px;
+margin:5px;
+color: white;
+font-size:30px;
+text-align: center;
+opacity: 0.9;"><b>
+  <input type="range" id="volume" name="volume"
+         min="0" max="4">
+  <br>
+  <label style= "font-size: 18">5---10---15---30---60</label>
+        
+    
+<center><button class="block" id="clickHereToStart" onclick="startGame()">Click here to start!</button></center>
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
