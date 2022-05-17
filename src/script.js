@@ -10,7 +10,7 @@ const buttonBlock = document.getElementById('clickHereToStart');
 
 let clicksPerSecond = 0;
 let totalClicks = 0;
-let counter;
+let counter = 0;
 let time = counter;
 let timerId;
 let waitId;
